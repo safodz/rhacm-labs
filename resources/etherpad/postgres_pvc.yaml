@@ -10,14 +10,3 @@ spec:
   resources:
     requests:
       storage: 2GiapiVersion: v1
-kind: PersistentVolumeClaim
-metadata:
-  labels:
-    template: postgresql-persistent-template
-  name: postgresql
-spec:
-  accessModes:
-  - ReadWriteOnce
-  resources:
-    requests:
-      storage: 2Gi
